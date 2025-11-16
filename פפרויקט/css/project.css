@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  
+}
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;   
+  align-items: center; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/backk.jpg);   
+}
+.card:hover {
+  border: solid rgb(255, 255, 255) 7px;
+}
+.zioon{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  font-weight: 600;       
+  line-height: 1;        
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  color: #fff;              
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.card{
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 5px;
+}
+.home {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/picc.png);
+  cursor: pointer;
+}
+
+.board{
+  height: 97%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: rgba(0,0,0,0.3); /* אופציונלי - רקע שקוף מעט, לשיפור נראות */
+ border-radius: 10px;
+ justify-content: center; 
+  align-content: center; 
+}
+   
